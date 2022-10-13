@@ -12,10 +12,14 @@ public class Szamla extends BankiSzolgaltatas{
     }
 
     public void befizet (int osszeg){
-
+        aktualisEgyenleg += osszeg;
     }
 
     public boolean kivesz (int osszeg){
-        return false;
+        if (osszeg > this.aktualisEgyenleg){
+            return false;
+        } else {
+            return true;
+        }
     }
 }
