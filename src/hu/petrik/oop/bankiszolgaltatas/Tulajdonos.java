@@ -14,4 +14,9 @@ public final class Tulajdonos {
     public void setNev(String nev) {
         this.nev = nev;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Tulajdonos: %s", this.nev);
+    }
 }
