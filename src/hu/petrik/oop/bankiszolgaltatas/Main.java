@@ -1,4 +1,4 @@
-package hu.petrik.oop;
+package hu.petrik.oop.bankiszolgaltatas;
 
 public class Main {
 
